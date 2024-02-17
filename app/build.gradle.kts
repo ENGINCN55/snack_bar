@@ -5,10 +5,11 @@ plugins {
 
 android {
     namespace = "com.example.snack_bar"
-    compileSdk = 33
+    compileSdk = 34
     buildFeatures{
         viewBinding=true
     }
+
 
     defaultConfig {
         applicationId = "com.example.snack_bar"
@@ -40,6 +41,7 @@ android {
 
 dependencies {
 
+    implementation("androidx.activity:activity:1.8.0")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
